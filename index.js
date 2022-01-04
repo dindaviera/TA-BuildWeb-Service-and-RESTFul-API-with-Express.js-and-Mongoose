@@ -15,6 +15,8 @@ console.log("tersambung ke db");
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use("/instructor", require("./InstructorsRoute/instructorAction"))
+app.use("/participants", require("./ParticipantsRoute/partcipantsAction"))
+app.use("/courses", require("./CoursesRoute/courseAction"))
 app.get("/", (req, res) => {
     res.send("hello world")
 })
