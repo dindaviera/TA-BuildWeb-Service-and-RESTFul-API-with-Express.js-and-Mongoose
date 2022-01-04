@@ -2,6 +2,6 @@
 
 https://ta-courses.herokuapp.com/
 
-### Link Documentasi
+### Link Dokumentasi
 
 https://documenter.getpostman.com/view/18560998/UVXbtKUv
